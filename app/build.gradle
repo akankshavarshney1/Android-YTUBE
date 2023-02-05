@@ -167,17 +167,17 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.8'
 
     // YouTube modules
-    implementation 'com.github.SkyTubeTeam.google-http-java-client:google-http-client-android:e726c5718d'
+    implementation 'com.github.akankshavarshney1.google-http-java-client:google-http-client-android:2dfc6b5739'
 
     implementation('com.google.apis:google-api-services-youtube:v3-rev20200423-1.30.9') {
         exclude group: 'com.google.http-client', module: 'google-http-client'
         exclude group: 'com.google.http-client', module: 'google-http-client-jackson2'
     }
 
-    implementation 'com.github.SkyTubeTeam.NewPipeExtractor:NewPipeExtractor:skytube-2022-11-04'
+    implementation 'com.github.akankshavarshney1.NewPipeExtractor:NewPipeExtractor:0.0.1'
 
-    implementation ('com.github.SkyTubeTeam.components:okhttp-client:v0.0.5') {
-        exclude group: 'com.github.SkyTubeTeam.NewPipeExtractor', module: 'extractor'
+    implementation ('com.github.akankshavarshney1:components:28d1cc03af') {
+        exclude group: 'com.github.akankshavarshney1.NewPipeExtractor', module: 'extractor'
     }
 
     // Java HTML parser
