@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package free.rm.skytube.gui.fragments.preferences;
+package free.rm.Video.gui.fragments.preferences;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -33,10 +33,10 @@ import androidx.preference.PreferenceFragmentCompat;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import free.rm.skytube.BuildConfig;
-import free.rm.skytube.R;
-import free.rm.skytube.gui.businessobjects.SkyTubeMaterialDialog;
-import free.rm.skytube.gui.businessobjects.updates.UpdatesCheckerTask;
+import free.rm.Video.BuildConfig;
+import free.rm.Video.R;
+import free.rm.Video.gui.businessobjects.SkyTubeMaterialDialog;
+import free.rm.Video.gui.businessobjects.updates.UpdatesCheckerTask;
 
 /**
  * Preference fragment for about (this app) related settings.
