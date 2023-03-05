@@ -92,7 +92,7 @@
 				android:layout_height="wrap_content"
 				app:played_color="@color/video_player_v2_seek_bar"/>
 
-			<free.rm.skytube.businessobjects.Sponsorblock.SBTimeBarView
+			<free.rm.Video.businessobjects.Sponsorblock.SBTimeBarView
 				android:id="@+id/exo_sponsorblock_progress"
 				android:layout_width="match_parent"
 				android:layout_height="4dp"

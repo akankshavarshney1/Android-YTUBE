@@ -20,7 +20,7 @@
 		android:layout_height="wrap_content"
 		android:scaleType="fitXY"
 		android:adjustViewBounds="true"
-		android:src="@drawable/channel_thumbnail_default" />
+		android:src="@drawable/akanksha_foreground" />
 
 	<!-- CHANNEL NAME -->
 	<TextView

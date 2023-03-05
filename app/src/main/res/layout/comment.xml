@@ -22,7 +22,7 @@
 		android:paddingRight="10dp"
 		android:scaleType="fitXY"
 		android:adjustViewBounds="true"
-		android:src="@drawable/channel_thumbnail_default" />
+		android:src="@drawable/akanksha_foreground" />
 
 	<LinearLayout
 		android:layout_width="match_parent"

@@ -53,7 +53,7 @@
 						android:adjustViewBounds="true"
 						android:padding="16dp"
 						android:scaleType="fitXY"
-						android:src="@drawable/channel_thumbnail_default"/>
+						android:src="@drawable/akanksha_foreground"/>
 
 					<!-- PLAYLIST TITLE -->
 					<TextView

@@ -15,18 +15,18 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package free.rm.skytube.gui.businessobjects;
+package free.rm.Video.gui.businessobjects;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import free.rm.skytube.businessobjects.YouTube.POJOs.YouTubeVideo;
-import free.rm.skytube.businessobjects.YouTube.newpipe.ContentId;
-import free.rm.skytube.gui.activities.YouTubePlayerActivity;
+import free.rm.Video.businessobjects.YouTube.POJOs.YouTubeVideo;
+import free.rm.Video.businessobjects.YouTube.newpipe.ContentId;
+import free.rm.Video.gui.activities.YouTubePlayerActivity;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-import static free.rm.skytube.gui.activities.YouTubePlayerActivity.YOUTUBE_VIDEO_OBJ;
+import static free.rm.Video.gui.activities.YouTubePlayerActivity.YOUTUBE_VIDEO_OBJ;
 
 /**
  * Launches YouTube player.

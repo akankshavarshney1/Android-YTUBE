@@ -48,7 +48,7 @@
 						android:gravity="center_vertical"
 						android:orientation="horizontal">
 
-						<free.rm.skytube.gui.businessobjects.RuntimeView
+						<free.rm.Video.gui.businessobjects.RuntimeView
 							android:id="@+id/currentRuntime"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
 							android:layout_height="wrap_content"
 							android:layout_weight="1"/>
 
-						<free.rm.skytube.gui.businessobjects.RuntimeView
+						<free.rm.Video.gui.businessobjects.RuntimeView
 							android:id="@+id/duration"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"

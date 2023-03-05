@@ -15,16 +15,16 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package free.rm.skytube.gui.activities;
+package free.rm.Video.gui.activities;
 
 import android.view.Menu;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import free.rm.skytube.businessobjects.YouTube.POJOs.YouTubeChannel;
-import free.rm.skytube.databinding.ActivityMainBinding;
-import free.rm.skytube.gui.businessobjects.MainActivityListener;
+import free.rm.Video.businessobjects.YouTube.POJOs.YouTubeChannel;
+import free.rm.Video.databinding.ActivityMainBinding;
+import free.rm.Video.gui.businessobjects.MainActivityListener;
 
 /**
  * Base Activity that any Activity that needs to support Chromecast functionality must extend. This OSS version just

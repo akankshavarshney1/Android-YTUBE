@@ -45,7 +45,7 @@
 					android:paddingEnd="10dp"
 					android:paddingRight="10dp"
 					android:scaleType="fitXY"
-					android:src="@drawable/channel_thumbnail_default" />
+					android:src="@drawable/akanksha_foreground" />
 
 				<LinearLayout
 					android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
 						android:text="Channel Name"/>
 
 					<!-- SUB BUTTON -->
-					<free.rm.skytube.gui.businessobjects.views.SubscribeButton
+					<free.rm.Video.gui.businessobjects.views.SubscribeButton
 						android:id="@+id/video_desc_subscribe_button"
 						style="@style/SubscribeButton"
 						android:layout_below="@id/video_desc_channel"

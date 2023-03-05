@@ -18,7 +18,7 @@
 			<ImageView
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				app:srcCompat="@drawable/thumbnail_default"
+				app:srcCompat="@drawable/akanksha_foreground"
 				android:scaleType="fitStart"
 				android:adjustViewBounds="true"
 				android:id="@+id/videoImage"/>
@@ -29,7 +29,7 @@
 				android:layout_height="50dp"
 				android:gravity="center_vertical">
 
-				<free.rm.skytube.gui.businessobjects.RuntimeView
+				<free.rm.Video.gui.businessobjects.RuntimeView
 					android:id="@+id/currentRuntime"
 					android:textColor="@android:color/white"
 					android:layout_marginLeft="10dp"
@@ -43,7 +43,7 @@
 					android:id="@+id/chromecastPlaybackProgressBar"
 					android:layout_weight="1"/>
 
-				<free.rm.skytube.gui.businessobjects.RuntimeView
+				<free.rm.Video.gui.businessobjects.RuntimeView
 					android:id="@+id/duration"
 					android:textColor="@android:color/white"
 					android:layout_marginRight="10dp"

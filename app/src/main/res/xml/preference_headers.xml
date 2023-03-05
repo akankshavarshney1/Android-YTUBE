@@ -18,49 +18,49 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.VideoPlayerPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.VideoPlayerPreferenceFragment"
         app:icon="@drawable/ic_pref_video_player"
         app:key="pref_video_player"
         app:title="@string/pref_video_player_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.VideoBlockerPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.VideoBlockerPreferenceFragment"
         app:icon="@drawable/ic_blocker"
         app:key="pref_video_blocker"
         app:title="@string/pref_video_blocker_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.SponsorblockPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.SponsorblockPreferenceFragment"
         app:icon="@drawable/ic_money_off"
         app:key="pref_sponsorblock"
         app:title="@string/pref_sponsorblock_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.BackupPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.BackupPreferenceFragment"
         app:icon="@drawable/ic_pref_backup"
         app:key="pref_import_export"
         app:title="@string/pref_import_export_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.PrivacyPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.PrivacyPreferenceFragment"
         app:icon="@drawable/ic_pref_privacy"
         app:key="pref_privacy"
         app:title="@string/pref_privacy_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.NetworkPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.NetworkPreferenceFragment"
         app:icon="@drawable/ic_pref_network"
         app:key="pref_network_downloads"
         app:title="@string/pref_network_downloads_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.OthersPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.OthersPreferenceFragment"
         app:icon="@drawable/ic_pref_others"
         app:key="pref_other"
         app:title="@string/pref_other_category" />
 
     <Preference
-        app:fragment="free.rm.skytube.gui.fragments.preferences.AboutPreferenceFragment"
+        app:fragment="free.rm.Video.gui.fragments.preferences.AboutPreferenceFragment"
         app:icon="@drawable/ic_pref_about"
         app:key="pref_about"
         app:title="@string/pref_about_category" />
